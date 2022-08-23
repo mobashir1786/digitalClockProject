@@ -182,7 +182,7 @@ body{
 }
 .rtwo{
     width: 46vw;
-    height: 12vh;
+    /*  height: 12vh; */
     margin: 30px;
     border-radius: 20px;
     background-color: white;
