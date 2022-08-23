@@ -29,7 +29,7 @@ function clock() {
     switch (true) {
         case hour1 >= 10 && hour1 < 12:
             rtext.innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
-            image.setAttribute("src","mornung.jpg")
+            image.setAttribute("src","morning.jpg")
             break;
         case hour1 >=12 && hour1 < 16:
             rtext.innerHTML = "LET'S HAVE SOME LUNCH !!";
