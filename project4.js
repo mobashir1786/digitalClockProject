@@ -41,7 +41,7 @@ function clock() {
         case hour1 >= 16 && hour1 < 20:
             rtext.innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
             image.setAttribute("src","evening.jpg");
-            ltext.innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP";
+            ltext.innerHTML="GOOD EVENING !!";
             break;
         // case hour1 >= 20 && hour1 < 18:
         //     rtext.innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
