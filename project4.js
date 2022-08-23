@@ -26,18 +26,22 @@ function clock() {
     const hour1 = time.getHours();
     const rtext = document.getElementById("rtext");
     const image = document.getElementById("image");
+    const ltext = document.getElementById("ltext");
     switch (true) {
         case hour1 >= 10 && hour1 < 12:
             rtext.innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
-            image.setAttribute("src","morning.jpg")
+            image.setAttribute("src","morning.jpg");
+            ltext.innerHTML="GOOD MORNING!! WAKE UP !!";
             break;
         case hour1 >=12 && hour1 < 16:
             rtext.innerHTML = "LET'S HAVE SOME LUNCH !!";
-            image.setAttribute("src","food.png")
+            image.setAttribute("src","food.png");
+            ltext.innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP";
             break;
         case hour1 >= 16 && hour1 < 20:
             rtext.innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
-            image.setAttribute("src","evening.jpg")
+            image.setAttribute("src","evening.jpg");
+            ltext.innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP";
             break;
         // case hour1 >= 20 && hour1 < 18:
         //     rtext.innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
@@ -46,7 +50,8 @@ function clock() {
 
         default:
             rtext.innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
-            image.setAttribute("src","night.jpg")
+            image.setAttribute("src","night.jpg");
+            ltext.innerHTML="GOOD NIGHT !!";
             break;
     }
 
